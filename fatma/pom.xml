@@ -3,14 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tn.edu.esprit.gl6</groupId>
 	<artifactId>fatma</artifactId>
-	<version>2.0.1-RELEASE</version>
+	<version>5.0.1-RELEASE</version>
 	<packaging>ejb</packaging>
 	<dependencies>
-		<dependency>
-			<groupId>tn.edu.esprit.gl6</groupId>
-			<artifactId>malek</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
@@ -33,7 +29,7 @@
 				<artifactId>wildfly-maven-plugin</artifactId>
 				<version>1.0.2.Final</version>
 				<configuration>
-					<port>9990</port>
+					<port>10000</port>
 					<filename>${project.artifactId}.jar</filename>
 				</configuration>
 			</plugin>
